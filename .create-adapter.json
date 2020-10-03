@@ -1,0 +1,34 @@
+{
+	"cli": true,
+	"adapterName": "lockstatus",
+	"title": "lockstatus",
+	"description": "Prepare the status of doors, windows and gates",
+	"expert": "no",
+	"features": [
+		"adapter",
+		"vis"
+	],
+	"adminFeatures": [],
+	"type": "alarm",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "assumption",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "single",
+	"es6class": "yes",
+	"authorName": "Sven Wisner",
+	"authorGithub": "Sven Wisner",
+	"authorEmail": "Sven@Wisner.eu",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.29.1"
+}

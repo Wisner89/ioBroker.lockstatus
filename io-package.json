@@ -1,0 +1,84 @@
+{
+	"common": {
+		"name": "lockstatus",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "lockstatus",
+		"titleLang": {
+			"en": "lockstatus",
+			"de": "Sperrstatus",
+			"ru": "статус блокировки",
+			"pt": "lockstatus",
+			"nl": "vergrendelingsstatus",
+			"fr": "lockstatus",
+			"it": "lockstatus",
+			"es": "Estado de bloqueo",
+			"pl": "lockstatus",
+			"zh-cn": "锁定状态"
+		},
+		"desc": {
+			"en": "Prepare the status of doors, windows and gates",
+			"de": "Bereiten Sie den Status von Türen, Fenstern und Toren vor",
+			"ru": "Подготовить статус дверей, окон и ворот",
+			"pt": "Prepare o status de portas, janelas e portões",
+			"nl": "Bereid de status van deuren, ramen en poorten voor",
+			"fr": "Préparer l'état des portes, fenêtres et portails",
+			"it": "Preparare lo stato di porte, finestre e cancelli",
+			"es": "Preparar el estado de puertas, ventanas y portones.",
+			"pl": "Przygotuj stan drzwi, okien i bram",
+			"zh-cn": "准备门，窗和大门的状态"
+		},
+		"authors": [
+			"Sven Wisner <Sven@Wisner.eu>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "lockstatus.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Sven Wisner/ioBroker.lockstatus/master/admin/lockstatus.png",
+		"readme": "https://github.com/Sven Wisner/ioBroker.lockstatus/blob/master/README.md",
+		"loglevel": "info",
+		"restartAdapters": [
+			"vis"
+		],
+		"localLink": "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+		"mode": "daemon",
+		"type": "alarm",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "assumption",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			},
+			"vis"
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
